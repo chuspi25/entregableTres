@@ -1,7 +1,7 @@
 import { ICd } from "./ICd.js";
 import { IDiscoDuro } from "./IDiscoDuro.js";
 
-const discoNew = new ICd("Metallica",600, 30,"cd musica");
+const discoNew = new ICd("Metallica",600, 30,"cd musica, mp3","canciones");
 
 discoNew.girar();
 discoNew.almacenar("canciones");
