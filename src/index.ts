@@ -26,6 +26,15 @@ viniloNew.leer();
 viniloNew.escribir();
 viniloNew.reportar();
 
+const blueRayNew = new IDiscoDuro("Sony", 50000, 10000,"bluray peliculas","peliculas");
+
+blueRayNew.girar();
+blueRayNew.almacenar("peliculas");
+blueRayNew.leer();
+blueRayNew.escribir();
+blueRayNew.reportar();
+
 console.log (discoNew);
 console.log (discoDuroNew);
 console.log (viniloNew);
+console.log (blueRayNew);
