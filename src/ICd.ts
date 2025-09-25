@@ -5,6 +5,7 @@ export class ICd implements IAlmacenamiento {
     #capacidad: number;
     #velocidad: number;
     #tipo: string;
+    
 
     constructor (nombre: string, capacidad: number, velocidad: number, tipo: string) {
         this.#nombre = nombre;
