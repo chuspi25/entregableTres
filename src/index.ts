@@ -9,7 +9,7 @@ discoNew.leer();
 discoNew.escribir();
 discoNew.reportar();
 
-const discoDuroNew = new IDiscoDuro("Seagate",2000, 7200,"HDD");
+const discoDuroNew = new IDiscoDuro("Seagate",2000, 7200,"HDD","datos");
 
 discoDuroNew.girar();
 discoDuroNew.almacenar("documentos");
